@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    font-family:Arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: hsl(210, 100%, 50%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(210, 100%, 60%);
+}
+
+button:active{
+    background-color: hsl(210, 100%, 70%);
+}
+
+input{
+    font-size:2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResult{
+    margin-bottom: 30px;
+}
+
+img{
+    width: 250px;
+    margin-right:10px;
+}
+
+#numofDice{
+    border-radius: 10px;
+}
+
+@media (max-width: 768px ){
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 10px;
+    }
+}
