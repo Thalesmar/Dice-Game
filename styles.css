@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
 #container{
     font-family:Arial, sans-serif;
     text-align: center;
@@ -38,12 +46,12 @@ input{
 }
 
 #diceResult{
-    margin-bottom: 30px;
+    margin: 30px;
 }
 
-img{
+#diceImages img{
     width: 250px;
-    margin-right:10px;
+    margin:10px;
 }
 
 #numofDice{
